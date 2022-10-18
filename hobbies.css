@@ -1,0 +1,122 @@
+ *{
+    box-sizing: border-box;
+ }
+header img{
+    height: 50px;
+}
+body{
+    background-image: url(./images/4851806.jpg);
+    background-size: contain;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+nav ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav a{
+    padding: 15px;
+    color:white;
+    font-size: larger;
+    margin: 10px;
+    text-decoration: none;
+    font-family:Gochihand;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main{
+    padding: 8px;
+}
+
+h1, h2, h3, h4, h5{
+    text-decoration: underline;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    border: 5px red double;
+    background-color: antiquewhite;
+    box-shadow: black;
+    font-family: MouseMemoirs;
+    font-size: xx-large;
+}
+.card{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(8, 0, 0);
+    font-family: Bangers;
+    font-size: larger;
+}
+.card img {
+    height: 300px;
+    border: 1px yellow solid;
+    margin: 15px;
+    box-shadow: 5px 5px 5px 12px black;
+}
+.card img:hover {
+    border: 1px black dotted;
+    box-shadow: -6px -6px 12px greenyellow ;
+}
+.container div{
+    margin: 5px;
+}
+nav{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.container{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+div p{
+    margin: 0px;
+    padding: 5px;
+}
+nav a:hover{
+    background: #1b2aff;
+    transition: 5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: Bangers;
+    src: url(./font/Bangers/Bangers-Regular.ttf);
+}
+@font-face {
+    font-family: luckiestguy;
+    src: url(./font/Luckiestguy/LuckiestGuy-Regular.ttf);
+}
+@font-face {
+    font-family: Patrickhand;
+    src: url(./font/Patrickhand/PatrickHand-Regular.ttf);
+}
+@font-face {
+    font-family: Blakahollow;
+    src: url(./font/BlakaHollow/BlakaHollow-Regular.ttf);
+}
+@font-face {
+    font-family: Gochihand;
+    src: url(./font/Gochihand/GochiHand-Regular.ttf);
+}
+@font-face {
+    font-family: MouseMemoirs;
+    src: url(./font/MouseMemoirs/MouseMemoirs-Regular.ttf);
+}
